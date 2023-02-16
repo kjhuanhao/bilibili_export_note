@@ -11,9 +11,9 @@ import re
 对cookies进行格式化
 """
 def set_settings():
-    str_cookie = input("请输入你的cookies:")
-    str_csrf = input("请输入你的csrf:")
-    str_path = input("请输入笔记导出路径(例如D:\\\\mynote\\\\):")
+    str_cookie = input("请输入你的cookies: ")
+    str_csrf = input("请输入你的csrf: ")
+    str_path = input("请输入笔记导出路径(例如D:\mynote\): ")
     cookies = {}
     settings = {"cookies": cookies,
                 "csrf": str_csrf,
@@ -39,7 +39,7 @@ def set_settings():
                     f.truncate()
                     f.write(json.dumps(settings))
                     f.close()
-        print("cookies和csrf设置成功")
+        print("相关配置设置成功")
 
 
     except:
