@@ -85,8 +85,18 @@ python ./main.py https://www.bilibili.com/video/BV13F411A7mD/?spm_id_from=333.99
 ![](https://s1.vika.cn/space/2023/02/16/09c98e02d8ab4b62a8df9bfb2cde1564)
 
 - 运行命令
+
+![image-20230216144411987](https://s1.vika.cn/space/2023/02/16/33c24c0d6d7b4108b858ef245f401048)
+
 ```shell
 cd pyscript/bilibili_export_note/ && python ./main.py {{_link}}
 ```
 
 > 如果你是第一次使用Shell commands，直接将我的插件包导入到plugins即可
+
+
+
+## 关于
+
+- 我的B站：[Mrhuanhao](https://space.bilibili.com/67268239)
+- 个人博客：[Laijiahao](https://laijiahao.cn)
